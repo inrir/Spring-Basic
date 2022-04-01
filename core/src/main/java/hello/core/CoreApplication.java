@@ -1,5 +1,6 @@
 package hello.core;
 
+import hello.core.order.OrderService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
