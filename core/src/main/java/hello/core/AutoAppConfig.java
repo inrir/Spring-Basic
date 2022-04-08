@@ -13,9 +13,9 @@ import org.springframework.context.annotation.FilterType;
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 ) // AppConfig의 충돌을 피하기 위해서
 public class AutoAppConfig {
-    @Bean(name = "memoryMemberRepository") // 수동 빈 등록으로 충돌성 확인
+   /* @Bean(name = "memoryMemberRepository") // 수동 빈 등록으로 충돌성 확인
     public MemberRepository memberRepository(){
         return new MemoryMemberRepository();
-    }
+    }*/
 
 }
